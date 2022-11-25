@@ -16,7 +16,7 @@
 `scipy==1.2.1`\
 `tensorflow-gpu==2.7.0` or `tensorflow==2.7.0`
 
-Installing tensorflow-gpu==1.11.0 isn't a straight forward `pip install tensorflow-gpu==1.11.0`, instead follow this tutorial https://www.tensorflow.org/install/gpu. `tensorflow==1.11.0` can be installed easily using `pip`, however, it is typically much slower than tensorflow-gpu because it only uses the cpu.
+Installing tensorflow-gpu==2.7.0 isn't a straight forward `pip install tensorflow-gpu==2.7.0`, instead follow this tutorial https://www.tensorflow.org/install/gpu. `tensorflow==2.7.0` can be installed easily using `pip`, however, it is typically much slower than tensorflow-gpu because it only uses the cpu.
 
 5. Run jupyter notebook: `jupyter notebook`
 
