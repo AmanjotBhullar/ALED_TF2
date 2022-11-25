@@ -1,4 +1,4 @@
-# Automatic Light Echo Detection (ALED)
+# Automatic Light Echo Detection (ALED) for Tensorflow 2
 
 ## Installation:
 1. Install Python 3
@@ -14,7 +14,7 @@
 `scikit-image==0.14.2`\
 `scikit-learn==0.20.2`\
 `scipy==1.2.1`\
-`tensorflow-gpu==1.11.0` or `tensorflow==1.11.0`
+`tensorflow-gpu==2.7.0` or `tensorflow==2.7.0`
 
 Installing tensorflow-gpu==1.11.0 isn't a straight forward `pip install tensorflow-gpu==1.11.0`, instead follow this tutorial https://www.tensorflow.org/install/gpu. `tensorflow==1.11.0` can be installed easily using `pip`, however, it is typically much slower than tensorflow-gpu because it only uses the cpu.
 
