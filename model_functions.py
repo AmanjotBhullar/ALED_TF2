@@ -307,7 +307,10 @@ def classify_fits(snle_image_paths, snle_names, start, top_n=45, small_n=10):
 
         with open("snle_candidates.txt", "a") as myfile:
             myfile.write(str(snle_names[i+start])+' %i %i %i %f %f\n'%(big_pic_count1, big_pic_count2, big_pic_count3, top_length, small_length))
-
+        
+        if not os.path.isdir('astro_package_pics'):
+            os.makedirs('astro_package_pics')
+        
         plt.figure(figsize=(40, 40))
         plt.imshow(big_pic, vmin=0, vmax=0.00045)
         # plt.colorbar()
